@@ -1,18 +1,35 @@
 ---
 import { Icon } from "astro-icon";
 import ContentSection from "~/components/content-section.astro";
+import { Picture } from "@astrojs/image/components";
+import projector from "~/assets/projector.jpeg";
+
+const widths = [450, 800];
+const sizes = "(min-width: 640px) 42vw, 67vw";
 ---
 
-<ContentSection title="Just ship less" id="intro">
-  <Icon slot="eyebrow" name="logomark" class="h-32" />
+<ContentSection title="Welcome to the UCLA Planetarium!" id="intro">
+  <!--<Icon slot="eyebrow" name="logomark" class="h-32" />-->
   <Fragment slot="lead">
-    Astro is a new kind of site builder for the
-    <span class="text-primary">modern</span> web.
-    <span class="text-primary">Lightning-fast</span>
-     performance meets <span class="text-primary">powerful</span> developer
-    experience.
+    Public planetarium shows are <span class="text-primary">free</span> and suitable for all ages, and are usually given by current astronomy graduate students. 
+    The content of a show varies by presenter, but commonly includes discussion about the current night sky, constellations, 
+    astronomical phenomena, and more!
   </Fragment>
-  <div class="grid grid-cols-1 gap-2 sm:grid-cols-2">
+
+  <div
+      id="projector"
+      class="w-1/2 max-w-3xl self-start sm:w-10/12 sm:self-auto sm:justify-self-center"
+    >
+      <Picture
+        class="h-full w-full object-cover"
+        src={projector}
+        widths={widths}
+        sizes={sizes}
+        loading="eager"
+        alt="A bruin with the ursa major constellation overlaid"
+      />
+    </div>
+  <!--<div class="grid grid-cols-1 gap-2 sm:grid-cols-2">
     <a
       href="https://docs.astro.build/"
       class="flex items-center justify-center gap-3 border-2 border-current px-6 py-4"
@@ -27,5 +44,5 @@ import ContentSection from "~/components/content-section.astro";
       <Icon pack="mdi" name="rocket" class="h-8" />
       <span>Try it out</span>
     </a>
-  </div>
+  </div>-->
 </ContentSection>

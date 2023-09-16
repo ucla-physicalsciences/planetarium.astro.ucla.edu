@@ -13,14 +13,20 @@ const { title, id } = Astro.props;
 >
   <div class="flex flex-col items-center gap-4">
     <slot name="eyebrow" />
+    <!--<h2
+      class="gradient-text text-center font-extrabold tracking-tight text-4xl"
+    >-->
     <h2
-      class="gradient-text text-center font-extrabold tracking-tight text-6xl"
+      class="text-center tracking-tight text-4xl"
     >
       {title}
     </h2>
   </div>
-  <p class="max-w-xl text-center font-extrabold text-2xl">
+  <p class="max-w-3xl text-center italic text-1xl">
     <slot name="lead" />
+  </p>
+  <p class="max-w-3xl text-center italic text-1xl">
+    <slot name="secondary" />
   </p>
   <slot />
 </section>

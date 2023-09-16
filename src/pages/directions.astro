@@ -1,0 +1,187 @@
+---
+import "@fontsource-variable/inter";
+import Requests from "~/components/requests.astro";
+import Contact from "~/components/contact.astro";
+import Shows from "~/components/shows.astro";
+import Footer from "~/components/footer.astro";
+import PageHeader from "~/components/page-header.astro";
+import Intro from "~/components/intro.astro";
+/*import Showcase from "~/components/showcase.astro";*/
+import Splash from "~/components/splash.astro";
+import "~/styles/index.css";
+import { Picture } from "@astrojs/image/components";
+import dome from "~/assets/planetarium_exterior_ne.jpeg";
+import mathsci_s from "~/assets/mathsci_south.jpeg";
+import mathsci_n from "~/assets/mathsci_north.jpeg";
+
+const widths = [450, 800];
+const sizes = "(min-width: 640px) 42vw, 67vw";
+const { generator, site } = Astro;
+const image = new URL("social.jpg", site);
+const description =
+  "The UCLA Planetarium hosts public and private graduate student-run shows.";
+---
+
+<!doctype html>
+<html lang="en" class="h-full motion-safe:scroll-smooth" data-theme="dark">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml"/>
+    <meta name="generator" content={generator} />
+
+    <title>Directions | UCLA Planetarium</title>
+    <meta name="description" content={description} />
+
+    <!-- social media -->
+    <meta property="og:title" content="Astro" />
+    <meta property="og:type" content="website" />
+    <meta property="og:description" content={description} />
+    <meta property="og:image" content={image} />
+    <meta property="og:url" content={site} />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <!-- initialize theme -->
+    <script is:inline>
+      const themeSaved = localStorage.getItem("theme");
+
+      if (themeSaved) {
+        document.documentElement.dataset.theme = themeSaved;
+      } else {
+        const prefersDark = window.matchMedia(
+          "(prefers-color-scheme: dark)",
+        ).matches;
+        document.documentElement.dataset.theme = prefersDark ? "dark" : "light";
+      }
+
+      window
+        .matchMedia("(prefers-color-scheme: dark)")
+        .addEventListener("change", (event) => {
+          if (!localStorage.getItem("theme")) {
+            document.documentElement.dataset.theme = event.matches
+              ? "dark"
+              : "light";
+          }
+        });
+    </script>
+  </head>
+  <body
+    class="h-full overflow-x-hidden bg-default text-default text-base selection:bg-secondary selection:text-white"
+  >
+    <PageHeader />
+    <div class="space-y-24 px-8 py-32">
+      <section
+        id="about"
+        class="flex scroll-mt-24 flex-col items-center gap-4 space-y-8"
+      >
+        <div class="flex flex-col items-center gap-4">
+          
+          <h2
+            class="text-center tracking-tight text-4xl"
+          >
+            Directions
+          </h2>
+        </div>
+
+        <div
+          id="dome"
+          class="w-1/2 max-w-2xl self-start sm:w-10/12 sm:self-auto sm:justify-self-center"
+        >
+          <Picture
+            class="h-full w-full object-cover"
+            src={dome}
+            widths={widths}
+            sizes={sizes}
+            loading="eager"
+            alt="The planetarium dome"
+            caption="Inside the planetarium"
+          />
+        </div>
+        <p class="max-w-3xl text-center text-1xl">
+        The UCLA Planetarium (Room MS 8224) is located on the eighth floor of the Mathematical Sciences Building, and the telescopes are located on the ninth floor.
+        </p>
+        <h3
+          class="text-center tracking-tight text-2xl"
+        >
+          Parking
+        </h3>
+        <p class="max-w-3xl text-center italic text-1xl">
+          Due to congestion on the UCLA campus, please allow ample time for parking as we are not able to accommodate late arrivals.
+        </p>
+        <p class="max-w-3xl text-center text-1xl">        
+        Parking is available at many of UCLA’s parking structures for approximately $3.00/hour or at on-street meters on UCLA’s campus. The <a href="http://map.ucla.edu/downloads/pdf/UCLA_Campus_Colored_Map.pdf"><u>parking structures</u></a> closest to the Mathematical Sciences building are Lots 8 and 9 (off of Westwood Blvd) and Lot 2 (off of Hilgard Ave).
+        <a href="https://ucla.app.box.com/s/0nnow9bn69494gcsz4rbphap2txyckl9"><u>Motorcycle and scooter parking</u></a> is free of charge in designated areas. There are areas north of Lot 9 (next to Ackerman Union) and west of Lot 2 (at the intersection of Westholme and Charles E. Young Drive.
+        </p>
+
+        <p class="max-w-3xl text-center text-1xl">
+          <a href="https://ucla.app.box.com/v/UCLA-Bike-Map"><u>Bicycle parking</u></a> is available in the Court of Sciences, just south of the Mathematical Sciences Building breezeway. Bicycle lockers are available for rental in Lot 2.
+        </p>
+
+        <h3
+          class="text-center tracking-tight text-2xl"
+        >
+          Public Transportation
+        </h3>
+        <p class="max-w-3xl text-left text-1xl">
+          UCLA is accessible via several bus lines:
+        </p>
+        <ul class="max-w-2xl justify-self-center list-disc text-left text-1xl">
+        <li><a href="http://www.metro.net/"><u>Metro</u></a>: 2, 20, 302, 305, 720, 761, and 920</li>
+        <li><a href="http://www.bigbluebus.com/home/index.asp"><u>Big Blue Bus</u></a>: 1, 2, 3, 8, and 12/Super 12</li>
+        <li><a href="http://www.culvercity.org/Government/Transportation/Bus.aspx"><u>Culver City Bus</u></a>: 6/Rapid 6.</li>
+        <li><a href="http://map.ais.ucla.edu/go/1001490"><u>UCLA Campus Express</u></a> stops at Lot 2, but does not run after 7 PM during the academic year or after 6 PM during summer, winter, and spring breaks.</li>
+        </ul>
+
+        <h3
+          class="text-center tracking-tight text-2xl"
+        >
+          Directions on Campus
+        </h3>
+        <div
+          id="mathsci_s"
+          class="w-1/2 max-w-2xl self-start sm:w-10/12 sm:self-auto sm:justify-self-center"
+        >
+        <Picture
+            class="h-full w-full object-cover"
+            src={mathsci_s}
+            widths={widths}
+            sizes={sizes}
+            loading="eager"
+            alt="The math sciences building seen from the court of sciences"
+            caption="Inside the planetarium"
+          />
+        </div>
+
+        <ul class="max-w-2xl justify-self-center list-disc text-left text-1xl">
+        <li>The Mathematical Sciences Building is located in south campus and has several white observatory domes on the roof. (<a href="http://www.ucla.edu/map">Full campus map</a>)</li>
+        <li>Enter the Mathematical Sciences Building through the doors in the breezeway (opposite the vending machines). You will enter on the fifth floor.</li>
+        <li>Go up to the eighth floor by stairs or elevator.
+
+        <ul>
+        <li>For stairs: proceed straight ahead into a short hallway and enter the stairwell through a large door on your left (under the “Exit” sign). Go up three floors to the eighth floor. Turn right out of the stairwell, walk through an archway, and then immediately turn right again to follow the short hallway out onto the roof of the building.</li>
+        <li>For elevator: turn left immediately and take the elevator to the eight floor. Exit left out of the elevator, then turn left again, and follow the short hallway out onto the roof of the building.</li>
+        </ul></li>
+        <li>You should see signs pointing the way when you exit the stairwell/elevator.</li>
+        <li>As you walk onto the roof, the planetarium dome is directly in front of you.</li>
+        <li>To get to the telescopes, take the stairs behind you (above the door to the roof) to the 9th floor roof. At the top of the stairs, turn right and then left at the end of the wall and you will see the dome housing the 14" telescope.</li>
+        </ul>
+        <div
+          id="mathsci_n"
+          class="w-1/2 max-w-2xl self-start sm:w-10/12 sm:self-auto sm:justify-self-center"
+        >
+        <Picture
+            class="h-full w-full object-cover"
+            src={mathsci_n}
+            widths={widths}
+            sizes={sizes}
+            loading="eager"
+            alt="Breezeway entrance to the math sciences building"
+            caption="Inside the planetarium"
+          />
+        </div>
+      </section>
+
+    </div>
+    <Footer />
+  </body>
+</html>
