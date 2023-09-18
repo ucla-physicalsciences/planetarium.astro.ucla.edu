@@ -2,6 +2,8 @@
 import { Icon } from "astro-icon";
 import ThemeSwitcher from "~/components/theme-switcher.astro";
 import type { NavItem } from "~/types";
+import { Picture } from "@astrojs/image/components";
+import logo from "~/icons/astro_logo_cropped.png";
 
 const navItems: Array<NavItem> = [
   { title: "About", url: "about" },
@@ -9,6 +11,8 @@ const navItems: Array<NavItem> = [
   { title: "Directions", url: "directions" },
   { title: "Contact", url: "../#contact" },
 ];
+const widths = [450, 800];
+const sizes = "(min-width: 640px) 42vw, 67vw";
 ---
 
 <header
@@ -17,7 +21,15 @@ const navItems: Array<NavItem> = [
 >
   <a class="flex items-center gap-3 hover:!text-default" href="../#intro">
     <h1 class="sr-only">UCLA Planetarium</h1>
-    <Icon name="ucla_astro_logo" class="h-10 fill-transparent" />
+    <Picture
+        class="h-10"
+        src={logo}
+        widths={widths}
+        sizes={sizes}
+        loading="eager"
+        alt="A bruin with the ursa major constellation overlaid"
+    />
+    <!--<Icon name="astro_logo_cropped" class="h-10 fill-transparent" />-->
     <!--<Icon name="wordmark" class="hidden h-4 sm:block" />-->
     <p>UCLA Planetarium</p>
   </a>
@@ -60,7 +72,15 @@ const navItems: Array<NavItem> = [
             </button>
           </header>
           <div class="flex justify-center">
-            <Icon name="ucla_astro_logo" class="h-16" />
+            <!--<Icon name="ucla_astro_logo" class="h-16" />-->
+            <Picture
+              class="h-16"
+              src={logo}
+              widths={widths}
+              sizes={sizes}
+              loading="eager"
+              alt="A bruin with the ursa major constellation overlaid"
+            />
           </div>
           <nav>
             <ul class="flex flex-col">
