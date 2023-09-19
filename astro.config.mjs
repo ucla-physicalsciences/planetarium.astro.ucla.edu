@@ -17,7 +17,4 @@ export default defineConfig({
       external: ["svgo"],
     },
   },
-  experimental: {
-    viewTransitions: true
-  },
 });
