@@ -7,9 +7,9 @@ import logo from "~/icons/astro_logo_cropped.png";
 
 const navItems: Array<NavItem> = [
   { title: "About", url: "about" },
-  { title: "Shows", url: "../#shows" },
+  { title: "Shows", url: "#shows" },
   { title: "Directions", url: "directions" },
-  { title: "Contact", url: "../#contact" },
+  { title: "Contact", url: "#contact" },
 ];
 const widths = [450, 800];
 const sizes = "(min-width: 640px) 42vw, 67vw";
@@ -19,7 +19,7 @@ const sizes = "(min-width: 640px) 42vw, 67vw";
   id="page-header"
   class="absolute top-0 z-20 flex w-full items-center justify-between border-b border-transparent px-8 py-4 text-white"
 >
-  <a class="flex items-center gap-3 hover:!text-default" href="../#intro">
+  <a class="flex items-center gap-3 hover:!text-default" href="#intro">
     <h1 class="sr-only">UCLA Planetarium</h1>
     <Picture
         class="h-10"
