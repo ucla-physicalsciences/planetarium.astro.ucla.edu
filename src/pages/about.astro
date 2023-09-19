@@ -13,6 +13,7 @@ import { Picture } from "@astrojs/image/components";
 import theater from "~/assets/planetarium_theatre_NNE.jpeg";
 import projector from "~/assets/projector_from_N.jpeg";
 import labeled_projector from "~/assets/projector_labels.jpeg";
+import {ViewTransitions} from 'astro:transitions';
 
 const widths = [450, 800];
 const sizes = "(min-width: 640px) 42vw, 67vw";
@@ -64,6 +65,7 @@ const description =
           }
         });
     </script>
+    <ViewTransitions />
   </head>
   <body
     class="h-full overflow-x-hidden bg-default text-default text-base selection:bg-secondary selection:text-white"

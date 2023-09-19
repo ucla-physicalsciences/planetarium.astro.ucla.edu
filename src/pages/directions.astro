@@ -20,11 +20,21 @@ const { generator, site } = Astro;
 const image = new URL("social.jpg", site);
 const description =
   "The UCLA Planetarium hosts public and private graduate student-run shows.";
+
+/*import Modal from "~/components/modal.astro"*/
+import {ViewTransitions} from 'astro:transitions';
+
+/*import { RuxDialog } from '@astrouxds/astro-web-components/dist/components/rux-dialog.js'
+import { RuxButton } from '@astrouxds/astro-web-components/dist/components/rux-button.js'
+customElements.define('rux-dialog', RuxDialog)
+customElements.define('rux-button', RuxButton)*/
+
+/*import Modal from '~/components/modal.astro';*/
 ---
 
 <!doctype html>
 <html lang="en" class="h-full motion-safe:scroll-smooth" data-theme="dark">
-  <head>
+    <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml"/>
@@ -64,6 +74,8 @@ const description =
           }
         });
     </script>
+
+    <ViewTransitions />
   </head>
   <body
     class="h-full overflow-x-hidden bg-default text-default text-base selection:bg-secondary selection:text-white"
@@ -97,6 +109,36 @@ const description =
             caption="Inside the planetarium"
           />
         </div>
+        
+      <!--<rux-button id="open">Open Dialog</rux-button>
+        <rux-dialog id="dialog">
+            <div slot="header">Dialog Header</div>
+            <p>Dialog message here!</p>
+            <div slot="footer">
+                <rux-button id="confirm">Confirm</rux-button>
+            </div>
+        </rux-dialog>
+        <rux-button id="open">Open Dialog</rux-button>
+        <rux-modal id="modal" open>
+            <div slot="title">Dialog Header</div>
+            <span>Dialog message here!</span>
+            <rux-button id="confirm">Confirm</rux-button>
+        </rux-modal>
+        <script>
+            const openDialog = document.getElementById('open')
+            const modal = document.getElementById('modal');
+            const confirm = document.getElementById('confirm')
+            openDialog.addEventListener('click', () => { 
+                modal.open = true;
+            })
+            confirm.addEventListener('click', () => {
+                modal.open = false;
+            })
+        </script>-->
+
+
+
+
         <p class="max-w-3xl text-center text-1xl">
         The UCLA Planetarium (Room MS 8224) is located on the eighth floor of the Mathematical Sciences Building, and the telescopes are located on the ninth floor.
         </p>
