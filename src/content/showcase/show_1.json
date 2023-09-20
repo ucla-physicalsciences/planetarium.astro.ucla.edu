@@ -1,9 +1,9 @@
 {
-  "title": "TBA",
-  "image": "/src/content/showcase/_images/astro_logo_cropped.png",
-  "speaker":"TBA",
+  "title": "The first stars in the universe",
+  "image": "/src/content/showcase/_images/popIII_star.jpeg",
+  "speaker":"Sahil Hegde",
   "date":"Sept. 27, 2023 / 8 pm",
   "url":"https://pretix.eu/UCLAplanetarium/sept27show/",
-  "blurb":"TBA",
+  "blurb":"The first stars formed a few hundred million years after the Big Bang, shining light on the universe and ushering in the era of 'Cosmic Dawn'. Join us on Wednesday to learn about the physics driving the formation of these stars and how we might observe them. Following this, we'll 'look' at the stars in our local neighborhood in a tour of the night sky as projected on our planetarium dome!",
   "featured": 1
 }
