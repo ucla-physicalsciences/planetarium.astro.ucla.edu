@@ -4,8 +4,8 @@ import { defineConfig } from "astro/config";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://hegdesahil.github.io/planetarium_website",
-  base: "/planetarium_website",
+  site: "https://planetarium.astro.ucla.edu",
+  base: "./",
   integrations: [
     tailwind(),
     image({
