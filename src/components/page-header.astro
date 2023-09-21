@@ -132,7 +132,7 @@ const sizes = "(min-width: 640px) 42vw, 67vw";
   document.addEventListener("scroll", () => {
     /*const d = page.clientHeight - page.scrollTop - header.offsetHeight;*/
     const d = page.clientHeight
-    header.classList.toggle("fixed-header", d > 0);
+    header.classList.toggle("fixed-header", d >= 0);
   });
 
   menu.addEventListener("click", (event) => {
