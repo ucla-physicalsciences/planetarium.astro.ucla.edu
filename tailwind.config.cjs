@@ -15,10 +15,13 @@ module.exports = {
       textColor: {
         default: "var(--color-text)",
         offset: "var(--color-text-offset)",
+        accordion: "var(--color-text-accordion)",
+        link: "var(--color-text-link)",
       },
       backgroundColor: {
         default: "var(--color-background)",
         offset: "var(--color-background-offset)",
+        accordion: "var(--color-background-accordion)"
       },
       borderColor: {
         default: "var(--color-border)",

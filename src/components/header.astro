@@ -6,10 +6,11 @@ import { Picture } from "@astrojs/image/components";
 import logo from "~/icons/astro_logo_cropped.png";
 
 const navItems: Array<NavItem> = [
-  { title: "About", url: "about" },
-  { title: "Shows", url: "#shows" },
-  { title: "Directions", url: "directions" },
-  { title: "Contact", url: "#contact" },
+  { title: "About", url: "../about" },
+  { title: "Shows", url: "../#shows" },
+  { title: "Directions", url: "../directions" },
+  { title: "FAQ", url:"../faq"},
+  { title: "Contact", url: "../#contact" },
 ];
 const widths = [450, 800];
 const sizes = "(min-width: 640px) 42vw, 67vw";

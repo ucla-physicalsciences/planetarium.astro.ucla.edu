@@ -9,6 +9,7 @@ const navItems: Array<NavItem> = [
   { title: "About", url: "../about" },
   { title: "Shows", url: "../#shows" },
   { title: "Directions", url: "../directions" },
+  { title: "FAQ", url:"../faq"},
   { title: "Contact", url: "../#contact" },
 ];
 const widths = [450, 800];
@@ -17,7 +18,7 @@ const sizes = "(min-width: 640px) 42vw, 67vw";
 
 <header
   id="page-header"
-  class="absolute top-0 z-20 flex w-full items-center justify-between border-b border-transparent px-8 py-4 text-white"
+  class="fixed-header visible absolute fixed bottom-auto top-0 z-20 flex w-full items-center justify-between border-b border-default bg-default px-8 py-4 text-default"
 >
   <a class="flex items-center gap-3 hover:!text-default" href="../#intro">
     <h1 class="sr-only">UCLA Planetarium</h1>
