@@ -1,9 +1,9 @@
 {
-  "title": "The first stars in the universe",
-  "image": "/src/content/showcase/_images/popIII_star.jpeg",
-  "speaker":"Sahil Hegde",
-  "date":"Sept. 27, 2023 / 8 pm",
-  "url":"https://pretix.eu/UCLAplanetarium/sept27show/",
-  "blurb":"The first stars formed a few hundred million years after the Big Bang, shining light on the universe and ushering in the era of 'Cosmic Dawn'. Join us on Wednesday to learn about the physics driving the formation of these stars and how we might observe them. Following this, we'll 'look' at the stars in our local neighborhood in a tour of the night sky as projected on our planetarium dome!",
-  "featured": 1
+  "title": "Gravity through the ages",
+  "image": "/src/content/showcase/_images/gravity_apple.jpeg",
+  "speaker":"Nate Magari",
+  "date":"Oct. 18, 2023 / 8 pm",
+  "url":"https://pretix.eu/UCLAplanetarium/oct18show/",
+  "blurb":"Perhaps the most familiar of the four fundamental forces, gravity is responsible not only for binding our feet to the ground but also for binding us and Earth to our sun. Join us to learn more about this wonderful cosmic force of attraction and how our understanding of it has changed throughout history.",
+  "featured": 3
 }
