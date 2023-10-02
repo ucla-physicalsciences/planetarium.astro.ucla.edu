@@ -9,6 +9,8 @@
   --color-background-accordion:theme("colors.gray.300");
   --color-border: theme("colors.gray.900" / 20%);
   --color-text-link: theme("colors.sky.400");
+  --color-button-hover: theme("colors.emerald.700");
+  --color-button: theme("colors.emerald.600");
 }
 
 [data-theme="dark"] {
@@ -22,4 +24,7 @@
   --color-background-accordion:theme("colors.gray.600");
   --color-border: theme("colors.gray.50" / 20%);
   --color-text-link: theme("colors.sky.300");
+  --color-button-hover: theme("colors.emerald.600");
+  --color-button: theme("colors.emerald.500");
+
 }
