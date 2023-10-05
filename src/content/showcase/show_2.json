@@ -1,9 +1,9 @@
 {
-  "title": "Laura Hogan Poetry Reading",
-  "image": "/src/content/showcase/_images/butterfly_nebula.jpeg",
-  "speaker":"Laura Hogan and Claire Williams",
-  "date":"Oct. 4, 2023 / 8 pm",
-  "url":"https://pretix.eu/UCLAplanetarium/oct4show/",
-  "blurb":"Join us for an evening of poetry and astronomy! On October 4th, Backwaters Prize-winning poet Laura Hogan is partnering with the UCLA Planetarium for a special combined poetry reading and planetarium show. Hogan's new collection 'Butterfly Nebula' explores themes of human experience through cosmic phenomena, vividly drawing inspiration from celestial objects including planets, nebulae, supernovae, eclipses, and dark matter. In this special event, Laura will read and discuss a selection of these poems, joined by a UCLA astronomer who will explain the science behind the poetry. The event is free and open to the public, and will include a book giveaway, night sky show, and a Q&A with the author and an astronomer!",
-  "featured": 1
+  "title": "Worlds in miniature: natural satellites in our solar system ",
+  "image": "/src/content/showcase/_images/moon_and_earth.png",
+  "speaker":"Jack Foley",
+  "date":"Oct. 25, 2023 / 8 pm",
+  "url":"https://pretix.eu/UCLAplanetarium/oct25show/",
+  "blurb":"While many believe our solar system has been completely plotted out, there are still countless discoveries yet to be made through further exploration of the natural satellites, or moons, of our solar system. I want to start by explaining how moons are formed and then discuss some of the most interesting moons and their properties in our solar system, especially the Galilean moons of Jupiter, Saturns moons titan and Enceladus, and Neptune's moon triton. Come join me to discuss these weird and incredible worlds and the groundbreaking discoveries they may hold.",
+  "featured": 3
 }
