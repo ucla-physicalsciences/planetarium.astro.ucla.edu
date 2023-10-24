@@ -1,9 +1,9 @@
 {
-  "title": "Gravity through the ages",
-  "image": "/src/content/showcase/_images/gravity_apple.jpeg",
-  "speaker":"Nate Magari",
-  "date":"Oct. 18, 2023 / 8 pm",
-  "url":"https://pretix.eu/UCLAplanetarium/oct18show/",
-  "blurb":"Perhaps the most familiar of the four fundamental forces, gravity is responsible not only for binding our feet to the ground but also for binding us and Earth to our sun. Join us to learn more about this wonderful cosmic force of attraction and how our understanding of it has changed throughout history.",
-  "featured": 1
+  "title": "The Most Creative Discoveries in Astronomy",
+  "image": "/src/content/showcase/_images/bob-ross.png",
+  "speaker":"Isabel Angelo",
+  "date":"Nov. 8, 2023 / 7 pm",
+  "url":"https://pretix.eu/UCLAplanetarium/nov8show/",
+  "blurb":"TBA",
+  "featured": 3
 }
