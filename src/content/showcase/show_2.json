@@ -1,9 +1,9 @@
 {
-  "title": "TBA",
+  "title": "What is the universe made of?",
   "image": "/src/content/showcase/_images/astro_logo_cropped.png",
   "speaker":"Claire Williams",
   "date":"Jan. 31, 2024 / 7 pm",
   "url":"https://pretix.eu/UCLAplanetarium/jan31show/",
-  "blurb":"TBA.",
-  "featured": 3
+  "blurb":"The UCLA Planetarium welcomes you on a tour of the cosmos, as we investigate one of humanity’s most fundamental questions: what are we made of? From ancient philosophers to the development of the periodic table and even mysterious dark matter and dark energy, our journey will take us on an outer space adventure from the Big Bang to supernova explosions. We’ll discover amazing facts about the chemical elements and the quantum particles that constitute our world, and finally we’ll end with a tour of our own night sky. ",
+  "featured": 2
 }
