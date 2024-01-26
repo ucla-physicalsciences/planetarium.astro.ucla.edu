@@ -1,9 +1,9 @@
 {
-  "title": "A Grand Tour of the Solar System",
-  "image": "/src/content/showcase/_images/solar_system.jpeg",
-  "speaker":"Adrian Lam",
-  "date":"Jan. 24, 2023 / 7 pm",
-  "url":"https://pretix.eu/UCLAplanetarium/jan24show/",
+  "title": "TBA",
+  "image": "/src/content/showcase/_images/astro_logo.png",
+  "speaker":"Michael Karkar",
+  "date":"Feb. 14, 2023 / 7 pm",
+  "url":"https://pretix.eu/UCLAplanetarium/feb14show/",
   "blurb":"TBA",
-  "featured": 1
+  "featured": 3
 }
