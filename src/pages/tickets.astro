@@ -32,7 +32,7 @@ else if(today.getMonth()+1 >= 4) { // spring quarter
 
 const featuredCutoff = weeksBetween(quarterStart, today);
 
-const featuredSitesTest = await getCollection(
+const featuredSites = await getCollection(
   "showcase",
   ({ data }) => { return data.featured >= featuredCutoff; },
 );
