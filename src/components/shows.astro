@@ -11,21 +11,21 @@ import Modal from "~/components/modal.astro";
 const widths = [450, 800];
 const sizes = "(min-width: 640px) 42vw, 67vw";
 function weeksBetween(d1, d2) {
-  return Math.round((d2 - d1) / (7 * 24 * 60 * 60 * 1000));
+  return Math.ceil((d2 - d1) / (7 * 24 * 60 * 60 * 1000));
 }
 
 var today = new Date();
 
 // we need -1 below because date indexes from 0...
-const quarterStart = new Date(2024, 1-1, 10); // winter quarter
+const quarterStart = new Date(2024, 1-1, 11); // winter quarter
 if(today.getMonth()+1 >= 9) { // fall quarter
-  const quarterStart = new Date(2024, 9-1, 27); 
+  const quarterStart = new Date(2024, 9-1, 28); 
 }
 else if(today.getMonth()+1 >= 6) { // summer quarter
-  const quarterStart = new Date(2024, 6-1, 26); 
+  const quarterStart = new Date(2024, 6-1, 27); 
 }
 else if(today.getMonth()+1 >= 4) { // spring quarter
-  const quarterStart = new Date(2024, 4-1, 3); 
+  const quarterStart = new Date(2024, 4-1, 4); 
 }
 
 const featuredCutoff = weeksBetween(quarterStart, today);
