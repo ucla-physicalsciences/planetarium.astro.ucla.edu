@@ -1,1 +1,1 @@
-# planetarium_website
+# planetarium website
