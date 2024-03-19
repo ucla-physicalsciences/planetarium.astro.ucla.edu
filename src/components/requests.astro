@@ -2,87 +2,12 @@
 import CompatibilityList from "~/components/compatibility-list.astro";
 import ContentSection from "~/components/content-section.astro";
 import type { CompatibilityItem } from "~/types";
-
-const frameworks: Array<CompatibilityItem> = [
-  {
-    title: "React",
-    icon: "frameworks/react",
-    url: "https://reactjs.org/",
-  },
-  {
-    title: "Preact",
-    icon: "frameworks/preact",
-    url: "https://preactjs.com/",
-  },
-  {
-    title: "Svelte",
-    icon: "frameworks/svelte",
-    url: "https://svelte.dev/",
-  },
-  {
-    title: "Vue",
-    icon: "frameworks/vue",
-    url: "https://vuejs.org/",
-  },
-  {
-    title: "Solid",
-    icon: "frameworks/solid",
-    url: "https://www.solidjs.com/",
-  },
-  {
-    title: "Lit",
-    icon: "frameworks/lit",
-    url: "https://lit.dev/",
-  },
-];
-
-const platforms: Array<CompatibilityItem> = [
-  {
-    title: "Netlify",
-    icon: "platforms/netlify",
-    url: "https://www.netlify.com/",
-  },
-  {
-    title: "Vercel",
-    icon: "platforms/vercel",
-    url: "https://vercel.com/",
-  },
-  {
-    title: "Cloudflare",
-    icon: "fa-brands:cloudflare",
-    url: "https://pages.cloudflare.com/",
-  },
-  {
-    title: "Render",
-    icon: "platforms/render",
-    url: "https://render.com/",
-  },
-  {
-    title: "GitHub",
-    icon: "fa-brands:github",
-    url: "https://pages.github.com/",
-  },
-  {
-    title: "GitLab",
-    icon: "fa-brands:gitlab",
-    url: "https://docs.gitlab.com/ee/user/project/pages/",
-  },
-];
 ---
 
 <ContentSection title="Requests" id="requests">
   <Fragment slot="lead">
     To request a private show, please submit <a href="https://docs.google.com/forms/d/e/1FAIpQLSehMRTjw3D970Sd-evVKkcir9VgAAZ0sGQf0Zv_GAntNrE8vg/viewform" class="text-link hover:underline">this form</a>. Please note that the UCLA planetarium offers private shows <span class="text-primary">only to educational groups</span>, 
-      with a minimum party size of 15. We are currently accepting requests for <span class="text-primary">Spring/Summer 2024</span>. The deadline is <span class="text-primary">March 18</span>.
+      with a minimum party size of 15. We are currently accepting requests for <span class="text-primary">Fall 2024</span>. The deadline is <span class="text-primary">September 16</span>.
   </Fragment>
-  <!--<CompatibilityList
-    items={frameworks}
-    title="Frameworks"
-    url="https://docs.astro.build/core-concepts/framework-components/"
-  />
-  <CompatibilityList
-    items={platforms}
-    title="Platforms"
-    url="https://docs.astro.build/guides/deploy/"
-  />-->
+
 </ContentSection>
