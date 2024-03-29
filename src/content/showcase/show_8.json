@@ -1,9 +1,9 @@
 {
-  "title": "SHOW CANCELLED",
+  "title": "STBA",
   "image": "/src/content/showcase/_images/astro_logo_cropped.png",
-  "speaker":"N/A",
-  "date":"March 6, 2024 / 7 pm",
-  "url":"https://pretix.eu/UCLAplanetarium/mar6show/",
-  "blurb":"N/A",
+  "speaker":"Jack Lubin",
+  "date":"May 22, 2024 / 8 pm",
+  "url":"https://pretix.eu/UCLAplanetarium/may22show/",
+  "blurb":"TBA",
   "featured": 8
 }
