@@ -13,27 +13,30 @@ const sizes = "(min-width: 640px) 42vw, 67vw";
 function weeksBetween(d1, d2) {
   return Math.ceil((d2 - d1) / (7 * 24 * 60 * 60 * 1000));
 }
-
 var today = new Date();
 
 // we need -1 below because date indexes from 0...
-const quarterStart = new Date(2024, 1-1, 11); // winter quarter
+var quarterStart = new Date(2024, 1-1, 11); // winter quarter
+var weekBeforeStart = new Date(2024, 1-1, 4); // winter quarter
 if(today.getMonth()+1 >= 9) { // fall quarter
-  const quarterStart = new Date(2024, 9-1, 28); 
-  if(today < quarterStart) {
-    const quarterStart = new Date(2024, 6-1, 27);
+  quarterStart = new Date(2024, 9-1, 28); 
+  weekBeforeStart = new Date(2024, 9-1, 21);
+  if(today < weekBeforeStart) {
+    quarterStart = new Date(2024, 6-1, 27);
   }
 }
 else if(today.getMonth()+1 >= 6) { // summer quarter
-  const quarterStart = new Date(2024, 6-1, 27); 
-  if(today < quarterStart) {
-    const quarterStart = new Date(2024, 4-1, 4); 
+  quarterStart = new Date(2024, 6-1, 27); 
+  weekBeforeStart = new Date(2024, 6-1, 20);
+  if(today < weekBeforeStart) {
+    quarterStart = new Date(2024, 4-1, 4); 
   }  
 }
 else if(today.getMonth()+1 >= 3) { // spring quarter
-  const quarterStart = new Date(2024, 4-1, 4); 
-  if(today < quarterStart) {
-    const quarterStart = new Date(2024, 1-1, 11) 
+  quarterStart = new Date(2024, 4-1, 4); 
+  weekBeforeStart = new Date(2024, 3-1, 28);
+  if(today < weekBeforeStart) {
+    quarterStart = new Date(2024, 1-1, 11); 
   }
 }
 
