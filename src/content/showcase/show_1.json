@@ -1,9 +1,9 @@
 {
-  "title": "TBA",
-  "image": "/src/content/showcase/_images/astro_logo_cropped.png",
-  "speaker":"TBA",
-  "date":"TBA",
-  "url":"https://planetarium.astro.ucla.edu",
-  "blurb":"TBA",
+  "title": "The Dark Universe",
+  "image": "/src/content/showcase/_images/the_dark_universe.jpeg",
+  "speaker":"Ava Huddleston",
+  "date":"April 3, 2024",
+  "url":"https://pretix.eu/UCLAplanetarium/april3show/",
+  "blurb":"Explore the universes deepest secrests from dark energy to dark matter.",
   "featured": 1
 }
