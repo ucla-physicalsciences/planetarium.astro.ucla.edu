@@ -1,9 +1,9 @@
 {
-  "title": "Black History Month Special Show",
-  "image": "/src/content/showcase/_images/bhm.jpg",
+  "title": "Big History",
+  "image": "/src/content/showcase/_images/big_history.jpeg",
   "speaker":"Nate Magari",
-  "date":"Feb. 28, 2024 / 7 pm",
-  "url":"https://pretix.eu/UCLAplanetarium/feb28show/",
-  "blurb":"TBA",
+  "date":"May 15, 2024 / 8 pm",
+  "url":"https://pretix.eu/UCLAplanetarium/may15show/",
+  "blurb":"The entire 14 billion year epic of cosmic evolution told in just half an hour",
   "featured": 7
 }
