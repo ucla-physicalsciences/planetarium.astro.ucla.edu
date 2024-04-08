@@ -44,7 +44,7 @@ const featuredCutoff = weeksBetween(quarterStart, today);
 
 const featuredSites = await getCollection(
   "showcase",
-  ({ data }) => { return data.featured >= featuredCutoff; },
+  ({ data }) => { return data.featured > featuredCutoff; },
 );
 
 const orderedSites = featuredSites.sort(
