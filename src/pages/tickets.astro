@@ -15,6 +15,7 @@ import { getCollection } from "astro:content";
 function weeksBetween(d1, d2) {
   return Math.round((d2 - d1) / (7 * 24 * 60 * 60 * 1000));
 }
+var today = new Date();
 
 // we need -1 below because date indexes from 0...
 var quarterStart = new Date(2024, 1-1, 11); // winter quarter
