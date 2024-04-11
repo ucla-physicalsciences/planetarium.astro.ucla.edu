@@ -13,7 +13,7 @@ import { Picture } from "@astrojs/image/components";
 import { getCollection } from "astro:content";
 
 function weeksBetween(d1, d2) {
-  return Math.round((d2 - d1) / (7 * 24 * 60 * 60 * 1000));
+  return Math.ceil((d2 - d1) / (7 * 24 * 60 * 60 * 1000));
 }
 var today = new Date();
 
