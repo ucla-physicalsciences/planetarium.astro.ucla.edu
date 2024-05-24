@@ -1,9 +1,9 @@
 {
-  "title": "Next term's shows coming soon",
-  "image": "/src/content/showcase/_images/astro_logo_cropped.png",
-  "speaker":"N/A",
-  "date":"N/A",
-  "url":"https://planetarium.astro.ucla.edu/",
-  "blurb":"N/A",
+  "title": "AAPI Heritage Month Show (rescheduled!)",
+  "image": "/src/content/showcase/_images/aapi.png",
+  "speaker":"Sahil Hegde and Grant Weldon",
+  "date":"June 13, 2024 / 7:00 pm",
+  "url":"https://pretix.eu/UCLAplanetarium/may8show/",
+  "blurb":"Join us for a night of science and comedy celebrating Asian American, Native Hawaiian, and Pacific Islander Heritage! Note that this show is on a Thursday and begins at 7:00 pm.",
   "featured": 12
 }
