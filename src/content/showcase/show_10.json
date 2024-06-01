@@ -1,9 +1,9 @@
 {
-  "title": "TBA",
-  "image": "/src/content/showcase/_images/astro_logo_cropped.png",
+  "title": "A Virtual Tour of the Moon",
+  "image": "/src/content/showcase/_images/moonfall.jpeg",
   "speaker":"Adrian Lam",
   "date":"June 5, 2024 / 8 pm",
   "url":"https://pretix.eu/UCLAplanetarium/june5show/",
-  "blurb":"TBA",
+  "blurb":"Look, it's the Moon!",
   "featured": 10
 }
