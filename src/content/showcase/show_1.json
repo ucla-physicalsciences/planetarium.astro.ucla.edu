@@ -1,9 +1,9 @@
 {
-  "title": "The Dark Universe",
-  "image": "/src/content/showcase/_images/the_dark_universe.jpeg",
-  "speaker":"Ava Huddleston",
-  "date":"April 3, 2024 / 8 pm",
-  "url":"https://pretix.eu/UCLAplanetarium/april3show/",
-  "blurb":"Explore the universes deepest secrests from dark energy to dark matter.",
+  "title": "No shows during the summer quarter",
+  "image": "/src/content/showcase/_images/astro_logo_cropped.jpeg",
+  "speaker":"N/A",
+  "date":"N/A",
+  "url":"planetarium.astro.ucla.edu",
+  "blurb":"Shows will resume in the fall quarter",
   "featured": 1
 }
