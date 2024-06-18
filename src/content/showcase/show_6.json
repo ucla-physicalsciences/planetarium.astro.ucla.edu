@@ -3,7 +3,7 @@
   "image": "/src/content/showcase/_images/astro_logo_cropped.png",
   "speaker":"N/A",
   "date":"N/A",
-  "url":"planetarium.astro.ucla.edu",
+  "url":"https://planetarium.astro.ucla.edu",
   "blurb":"Shows will resume in the fall quarter",
   "featured": 6
 }
