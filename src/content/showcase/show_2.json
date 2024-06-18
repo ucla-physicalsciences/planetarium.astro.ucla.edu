@@ -1,9 +1,9 @@
 {
-  "title": "Black Holes in the Hearts of Galaxies",
-  "image": "/src/content/showcase/_images/quasar.jpeg",
-  "speaker":"Sofía Rojas",
-  "date":"April 10, 2024 / 8 pm",
-  "url":"https://pretix.eu/UCLAplanetarium/april10show/",
-  "blurb":"TBA",
+  "title": "No shows during the summer quarter",
+  "image": "/src/content/showcase/_images/astro_logo_cropped.png",
+  "speaker":"N/A",
+  "date":"N/A",
+  "url":"planetarium.astro.ucla.edu",
+  "blurb":"Shows will resume in the fall quarter",
   "featured": 2
 }
