@@ -1,9 +1,9 @@
 {
-  "title": "A Virtual Tour of the Moon",
-  "image": "/src/content/showcase/_images/moonfall.jpeg",
-  "speaker":"Adrian Lam",
-  "date":"June 5, 2024 / 8 pm",
-  "url":"https://pretix.eu/UCLAplanetarium/june5show/",
-  "blurb":"Look, it's the Moon!",
+  "title": "No shows during the summer quarter",
+  "image": "/src/content/showcase/_images/astro_logo_cropped.png",
+  "speaker":"N/A",
+  "date":"N/A",
+  "url":"planetarium.astro.ucla.edu",
+  "blurb":"Shows will resume in the fall quarter",
   "featured": 10
 }
