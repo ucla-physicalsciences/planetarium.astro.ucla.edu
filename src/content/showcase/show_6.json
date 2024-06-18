@@ -1,9 +1,9 @@
 {
-  "title": "SHOW CANCELLED",
-  "image": "/src/content/showcase/_images/aapi.png",
-  "speaker":"Sahil Hegde and Grant Weldon",
-  "date":"May 8, 2024 / 7:30 pm",
-  "url":"https://pretix.eu/UCLAplanetarium/may8show/",
-  "blurb":"Join us for a night of science and comedy celebrating Asian American, Native Hawaiian, and Pacific Islander Heritage! Note that this show begins at 7:30 pm.",
+  "title": "No shows during the summer quarter",
+  "image": "/src/content/showcase/_images/astro_logo_cropped.png",
+  "speaker":"N/A",
+  "date":"N/A",
+  "url":"planetarium.astro.ucla.edu",
+  "blurb":"Shows will resume in the fall quarter",
   "featured": 6
 }
