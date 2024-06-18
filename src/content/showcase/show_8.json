@@ -1,9 +1,9 @@
 {
-  "title": "STBA",
+  "title": "No shows during the summer quarter",
   "image": "/src/content/showcase/_images/astro_logo_cropped.png",
-  "speaker":"Jack Lubin",
-  "date":"May 22, 2024 / 8 pm",
-  "url":"https://pretix.eu/UCLAplanetarium/may22show/",
-  "blurb":"TBA",
+  "speaker":"N/A",
+  "date":"N/A",
+  "url":"planetarium.astro.ucla.edu",
+  "blurb":"Shows will resume in the fall quarter",
   "featured": 8
 }
