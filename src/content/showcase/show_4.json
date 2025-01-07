@@ -1,6 +1,6 @@
 {
   "title": "Dark Matter",
-  "image": "src/content/showcase/_images/dark-matter.png",
+  "image": "/src/content/showcase/_images/dark-matter.png",
   "speaker":"Hadrien Paugnat",
   "date":"Janurary 29: 7 PM",
   "url":"https://pretix.eu/UCLAplanetarium/October23show/",
