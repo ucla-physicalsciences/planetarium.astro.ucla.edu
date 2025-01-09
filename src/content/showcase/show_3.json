@@ -1,6 +1,6 @@
 {
   "title": "TBA",
-  "image": "src/content/showcase/_images/energy.jpg",
+  "image": "/src/content/showcase/_images/energy.jpg",
   "speaker":"Nate Magari",
   "date":"Janurary 22: 7 PM",
   "url":"https://pretix.eu/UCLAplanetarium/Jan22show/",
