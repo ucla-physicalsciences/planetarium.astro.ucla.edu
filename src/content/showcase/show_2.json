@@ -1,9 +1,9 @@
 {
-  "title": "TBA",
+  "title": "SHOW CANCELLED",
   "image": "/src/content/showcase/_images/astro_logo_cropped.png",
   "speaker":"TBA",
   "date":"January 15: 7pm",
-  "url":"https://pretix.eu/UCLAplanetarium/Jan15show/",
-  "blurb":"",
+  "url":"https://planetarium.astro.ucla.edu",
+  "blurb":"Show cancelled due to the wildfires and campus closure",
   "featured": 2
 }
