@@ -3,7 +3,7 @@
   "image": "/src/content/showcase/_images/astro_logo_cropped.png",
   "speaker":"N/A",
   "date":"Feburary 5: 7 PM",
-  "url":"planetarium.astro.ucla.edu",
+  "url":"https://planetarium.astro.ucla.edu",
   "blurb":"Show cancelled due to planetarium maintenance.",
   "featured": 5
 }
