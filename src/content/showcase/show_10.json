@@ -1,6 +1,6 @@
 {
   "title": "Pluto, what is it?",
-  "image": "src/content/showcase/_images/exoplanet.png",
+  "image": "/src/content/showcase/_images/exoplanet.png",
   "speaker":"Jack Lubin",
   "date":"March 12: 8:00PM",
   "url":"https://pretix.eu/UCLAplanetarium/March12show/",
