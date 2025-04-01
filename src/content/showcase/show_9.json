@@ -1,9 +1,9 @@
 {
-  "title": "Women's History Month: Astronomy Through the Ages",
-  "image": "/src/content/showcase/_images/looking_through_telescope.jpg",
-  "speaker":"Shreya Karthikeyan",
-  "date":"March 5: 7:00PM",
-  "url":"https://pretix.eu/UCLAplanetarium/March5show/",
-  "blurb":"",
+  "title": "Pluto, what is it?",
+  "image": "/src/content/showcase/_images/Pluto_in_True_Color_-_High-Res.png",
+  "speaker":"Jack Lubin",
+  "date":"May 28th: 8 PM",
+  "url":"https://pretix.eu/UCLAplanetarium/May28show/",
+  "blurb":"Our solar system's 9th body is beloved yet controversial. But is it a planet? How do we know and who gets to decide?!",
   "featured": 9
 }
