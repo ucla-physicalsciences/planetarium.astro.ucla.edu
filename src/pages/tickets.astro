@@ -42,7 +42,7 @@ else if(today.getMonth()+1 >= 3) { // spring quarter
   }
 }
 
-const featuredCutoff = weeksBetween(quarterStart, today);
+const featuredCutoff = weeksBetween(quarterStart, today)+1;
 
 const featuredSites = await getCollection(
   "showcase",
