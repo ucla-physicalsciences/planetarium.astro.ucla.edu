@@ -1,9 +1,9 @@
 {
-  "title": "Black Holes",
-  "image": "/src/content/showcase/_images/black_hole.jpeg",
-  "speaker":"Sofia Rojas Ruiz",
-  "date":"June 4th: 8 PM",
-  "url":"https://pretix.eu/UCLAplanetarium/June4show/",
-  "blurb":"TBD",
+  "title": "No shows during the summer",
+  "image": "/src/content/showcase/_images/planetarium_logo.png",
+  "speaker":"N/A",
+  "date":"N/A",
+  "url":"https://planetarium.astro.ucla.edu",
+  "blurb":"",
   "featured": 10
 }
