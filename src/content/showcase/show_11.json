@@ -1,9 +1,9 @@
 {
-  "title": "Shows will resume in a few weeks",
-  "image": "/src/content/showcase/_images/astro_logo_cropped.png",
+  "title": "No shows during the summer",
+  "image": "/src/content/showcase/_images/planetarium_logo.png",
   "speaker":"N/A",
   "date":"N/A",
   "url":"https://planetarium.astro.ucla.edu",
-  "blurb":"Shows will resume in the spring quarter",
+  "blurb":"",
   "featured": 11
 }
