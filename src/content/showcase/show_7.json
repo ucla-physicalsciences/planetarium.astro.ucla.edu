@@ -1,9 +1,9 @@
 {
-  "title": "TBA",
-  "image": "/src/content/showcase/_images/Chandra_artist_illustration.jpg",
-  "speaker":"Michael Karkar",
-  "date":"May 14th: 8 PM",
-  "url":"https://pretix.eu/UCLAplanetarium/May14show/",
-  "blurb":"TBD",
+  "title": "No shows during the summer",
+  "image": "/src/content/showcase/_images/planetarium_logo.png",
+  "speaker":"N/A",
+  "date":"N/A",
+  "url":"https://planetarium.astro.ucla.edu",
+  "blurb":"",
   "featured": 7
 }
