@@ -1,9 +1,9 @@
 {
-  "title": "TBD",
-  "image": "/src/content/showcase/_images/astro_logo_cropped.png",
-  "speaker":"Hadrien Paugnat",
-  "date":"April 30th: 8 PM",
-  "url":"https://pretix.eu/UCLAplanetarium/April30show/",
-  "blurb":"TBD",
+  "title": "No shows during the summer",
+  "image": "/src/content/showcase/_images/planetarium_logo.png",
+  "speaker":"N/A",
+  "date":"N/A",
+  "url":"https://planetarium.astro.ucla.edu",
+  "blurb":"",
   "featured": 5
 }
