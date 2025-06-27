@@ -1,9 +1,9 @@
 {
-  "title": "Pluto, what is it?",
-  "image": "/src/content/showcase/_images/Pluto_in_True_Color_-_High-Res.png",
-  "speaker":"Michael Karkar",
-  "date":"May 7th: 8 PM",
-  "url":"https://pretix.eu/UCLAplanetarium/May7show/",
-  "blurb":"Our solar system's 9th body is beloved yet controversial. But is it a planet? How do we know and who gets to decide?!",
+  "title": "No shows during the summer",
+  "image": "/src/content/showcase/_images/planetarium_logo.png",
+  "speaker":"N/A",
+  "date":"N/A",
+  "url":"https://planetarium.astro.ucla.edu",
+  "blurb":"",
   "featured": 6
 }
