@@ -1,9 +1,9 @@
 {
-  "title": "TBA",
-  "image": "/src/content/showcase/_images/planetarium_logo.png",
+  "title": "Moons of the Solar System and Beyond",
+  "image": "/src/content/showcase/_images/solar_system.jpeg",
   "speaker":"N/A",
   "date":"Oct 8th 8PM",
   "url":"https://pretix.eu/UCLAplanetarium/Oct8Show/",
-  "blurb":"TBA",
+  "blurb":"The solar system is full of moons and over a hundred were discovered this year alone. These planetary companions display a wide range of environments which contain novel physical phenomena and perhaps even extraterrestrial life. Recently astronomers have found candidates for exomoons beyond our solar system.",
   "featured": 1
 }
