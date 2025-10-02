@@ -21,8 +21,8 @@ var today = new Date();
 var quarterStart = new Date(2026, 1-1, 8); // winter quarter
 var weekBeforeStart = new Date(2026, 1-1, 8); // winter quarter
 if(today.getMonth()+1 >= 9) { // fall quarter
-  quarterStart = new Date(2025, 9-1, 25); 
-  weekBeforeStart = new Date(2025, 9-1, 18);
+  quarterStart = new Date(2025, 10-1, 1); // Band-aid fix for no show on week 1
+  weekBeforeStart = new Date(2025, 9-1, 25); // Band-aid fix for no show on week 1
   if(today < weekBeforeStart) {
     quarterStart = new Date(2026, 6-1, 26);
   }
