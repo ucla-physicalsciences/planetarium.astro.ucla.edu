@@ -1,9 +1,9 @@
 {
-  "title": "TBA",
-  "image": "/src/content/showcase/_images/popIII_star.jpeg",
-  "speaker":"Abby Lynch",
-  "date":"Oct. 15th 8PM",
-  "url":"https://pretix.eu/UCLAplanetarium/Oct15Show/",
-  "blurb":"Pulsars!",
+  "title": "Trends and Biases in the Known Exoplanet Sample",
+  "image": "/src/content/showcase/_images/exoplanet.png",
+  "speaker":"Jack Lubin",
+  "date":"Jan. 14 7PM",
+  "url":"https://pretix.eu/UCLAplanetarium/Jan14Show/",
+  "blurb":"We've now found over 6000 exoplanets! But what can this large sample tell us about the underlying distribution of planets in the galaxy? And what can it tell us about the planets that we *don't* find?",
   "featured": 2
 }
