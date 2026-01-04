@@ -1,9 +1,9 @@
 {
-  "title": "The Expanding Universe",
-  "image": "/src/content/showcase/_images/cosmology-expanding-universe.jpg",
-  "speaker":"Cyren Groisman & Jack Lubin",
-  "date":"Nov. 12th 7PM",
-  "url":"https://pretix.eu/UCLAplanetarium/Nov12Show/",
-  "blurb":"The universe is constantly expanding, but how did we get here? What lies in our future, and how can we be certain of what it will look like?",
+  "title": "Pulsars",
+  "image": "/src/content/showcase/_images/planetarium_logo.png",
+  "speaker":"Abigail Lynch",
+  "date":"Feb. 11th 7PM",
+  "url":"https://pretix.eu/UCLAplanetarium/Feb11Show/",
+  "blurb":"TBA",
   "featured": 6
 }
