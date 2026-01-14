@@ -1,9 +1,9 @@
 {
-  "title": "TBA",
-  "image": "/src/content/showcase/_images/planetarium_logo.png",
-  "speaker":"TBA",
+  "title": "Life in the Universe",
+  "image": "/src/content/showcase/_images/planets_around_star.jpeg",
+  "speaker":"Sean Granados",
   "date":"Jan. 21st 7PM",
   "url":"https://pretix.eu/UCLAplanetarium/Jan21Show/",
-  "blurb":"TBA",
+  "blurb":"The search for life in the universe is an ongoing effort. But what does it actually take to find it?",
   "featured": 3
 }
