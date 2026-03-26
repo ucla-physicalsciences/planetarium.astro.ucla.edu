@@ -1,9 +1,9 @@
 {
-  "title": "Dork Side of the Moon: A Science Comedy Show",
-  "image": "/src/content/showcase/_images/Special_Comedy_show.png",
-  "speaker":"Sarah Hagen and Naomi Fitter",
-  "date":"Feb. 18th 7PM",
-  "url":"https://pretix.eu/UCLAplanetarium/Feb18Show/",
-  "blurb":"Is it comedy or is it science? Yes! Join mathematician-turned-comedian Sarah Hagen as she leads the audience on a wildly hilarious, mildly risqué, but (mostly) factually accurate journey explaining how the Ancient Greeks were able to measure the distance to the moon and sun despite living in a time period so primitive that memes were shared via pottery.",
+  "title": "TBA",
+  "image": "/src/content/showcase/_images/planetarium_logo.png",
+  "speaker":"TBA",
+  "date":"May 13th 8PM",
+  "url":"https://pretix.eu/UCLAplanetarium/May13Show/",
+  "blurb":"TBA",
   "featured": 7
 }

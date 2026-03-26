@@ -1,9 +1,9 @@
 {
-  "title": "Comedy Show",
-  "image": "/src/content/showcase/_images/Special_Comedy_show.png",
-  "speaker":"Sahil Hegde",
-  "date":"Mar. 11th 7PM",
-  "url":"https://pretix.eu/UCLAplanetarium/Mar11Show/",
+  "title": "TBA",
+  "image": "/src/content/showcase/_images/planetarium_logo.png",
+  "speaker":"TBA",
+  "date":"Jun. 3rd 8PM",
+  "url":"https://pretix.eu/UCLAplanetarium/Jun03Show/",
   "blurb":"TBA",
   "featured": 10
 }
