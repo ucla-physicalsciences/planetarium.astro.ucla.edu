@@ -1,9 +1,9 @@
 {
-  "title": "TBA",
-  "image": "/src/content/showcase/_images/planetarium_logo.png",
-  "speaker":"TBA",
+  "title": "Does The Earth Go Around the Sun? (Yes)",
+  "image": "/src/content/showcase/_images/solar_system.jpeg",
+  "speaker":"Jack Lubin",
   "date":"May 13th 8PM",
   "url":"https://pretix.eu/UCLAplanetarium/May13Show/",
-  "blurb":"TBA",
+  "blurb":"How do we know the Earth moves around the Sun and not vice-versa like what used to be the accepted version? Come learn about three crucial tests!",
   "featured": 7
 }
