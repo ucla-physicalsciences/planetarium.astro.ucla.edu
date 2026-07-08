@@ -1,9 +1,9 @@
 {
-  "title": "TBA",
-  "image": "/src/content/showcase/_images/astro_logo_cropped.png",
-  "speaker":"TBA",
-  "date":"TBA",
+  "title": "No Shows During the Summer",
+  "image": "/src/content/showcase/_images/planetarium_logo.png",
+  "speaker":"N/A",
+  "date":"N/A",
   "url":"https://planetarium.astro.ucla.edu",
-  "blurb":"Shows will resume in the new quarter",
+  "blurb":"No shows scheduled during the summer months.",
   "featured": 14
 }

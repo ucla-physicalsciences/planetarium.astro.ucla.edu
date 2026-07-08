@@ -1,9 +1,9 @@
 {
-  "title": "Black Holes",
-  "image": "/src/content/showcase/_images/black_hole.jpeg",
-  "speaker":"Natalie & Jack",
-  "date":"May 20th 8PM",
-  "url":"https://pretix.eu/UCLAplanetarium/May20Show/",
-  "blurb":"How did Einstein prove that black holes existed? Or theorise about tunnels through space-time? Come learn about general relativity to understand the complexities of gravity!",
+  "title": "No Shows During the Summer",
+  "image": "/src/content/showcase/_images/planetarium_logo.png",
+  "speaker":"N/A",
+  "date":"N/A",
+  "url":"https://planetarium.astro.ucla.edu",
+  "blurb":"No shows scheduled during the summer months.",
   "featured": 8
 }
