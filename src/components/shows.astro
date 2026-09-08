@@ -24,12 +24,12 @@ const upcomingShows = await getCollection("showcase", ({ data }) => {
   return end >= today; 
 });
 
-const orderedShows = upcomingShows
+const orderedSites = upcomingShows
   .sort((a, b) => parseLocalDate(a.data.date) - parseLocalDate(b.data.date) )
   .slice(0, 3);
 
-while (orderedShows.length > 0  && orderedShows.length < 3) {
-  orderedShows.push(orderedShows[orderedShows.length -1])
+while (orderedSites.length > 0  && orderedSites.length < 3) {
+  orderedSites.push(orderedShows[orderedSites.length -1])
 }
 
 ---
