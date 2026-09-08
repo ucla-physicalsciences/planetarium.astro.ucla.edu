@@ -16,6 +16,16 @@ function parseLocalDate(str) {
   return new Date(y, m - 1, d); // Months are 0-indexed
 }
 
+function formatDisplayDate(dateStr, timeStr) {
+    const dateObj = parseLocalDate(dateStr);
+    const formatted = date.Obj.toLocaleDateString("en-US, {
+        weekday: "short",
+        month: "short",
+        day: "numeric",
+    }) 
+    return timeStr ? '${formatted} at ${timeStr}' : formatted
+}
+
 const today = new Date();
 today.setHours(0, 0, 0, 0);
 
@@ -94,7 +104,7 @@ while (orderedSites.length > 0  && orderedSites.length < 3) {
                     <!-- Modal body -->
                     <div class="p-6 space-y-6">
                         <h4 class="text-base leading-relaxed text-gray-700 dark:text-gray-600">
-                            {orderedSites[0].data.date}
+                            {formatDisplayDate(orderedSites[0].data.date, orderedSites[1].data.time)}
                         </h4>
                         <h4 class="text-base leading-relaxed text-gray-700 dark:text-gray-600">
                             {orderedSites[0].data.speaker}
@@ -130,7 +140,7 @@ while (orderedSites.length > 0  && orderedSites.length < 3) {
                     <!-- Modal body -->
                     <div class="p-6 space-y-6">
                         <h4 class="text-base leading-relaxed text-gray-700 dark:text-gray-600">
-                            {orderedSites[1].data.date}
+                            {formatDisplayDate(orderedSites[1].data.date, orderedSites[1].data.time)}
                         </h4>
                         <h4 class="text-base leading-relaxed text-gray-700 dark:text-gray-600">
                             {orderedSites[1].data.speaker}
@@ -166,7 +176,7 @@ while (orderedSites.length > 0  && orderedSites.length < 3) {
                     <!-- Modal body -->
                     <div class="p-6 space-y-6">
                         <h4 class="text-base leading-relaxed text-gray-700 dark:text-gray-600">
-                            {orderedSites[2].data.date}
+                            {formatDisplayDate(orderedSites[2].data.date, orderedSites[2].data.time)}
                         </h4>
                         <h4 class="text-base leading-relaxed text-gray-700 dark:text-gray-600">
                             {orderedSites[2].data.speaker}

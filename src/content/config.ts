@@ -8,6 +8,7 @@ const showcase = defineCollection({
     speaker: z.string(),
     date:z.string(),
     dateEnd:z.string().optional(),
+    time: z.string().optional(),
     url:z.string().url(),
     blurb:z.string(),
   }),
