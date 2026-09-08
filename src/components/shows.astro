@@ -18,7 +18,7 @@ function parseLocalDate(str) {
 
 function formatDisplayDate(dateStr, timeStr) {
     const dateObj = parseLocalDate(dateStr);
-    const formatted = date.Obj.toLocaleDateString("en-US, {
+    const formatted = dateObj.toLocaleDateString("en-US, {
         weekday: "short",
         month: "short",
         day: "numeric",
