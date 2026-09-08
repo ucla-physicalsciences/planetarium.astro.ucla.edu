@@ -19,8 +19,8 @@ function parseLocalDate(str) {
 const today = new Date();
 today.setHours(0, 0, 0, 0);
 
-const upcomingShows = await getCollection("showcase", ({ data }) >= {
-  const end = parseLocalDate(data.dataEnd ?? data.date);
+const upcomingShows = await getCollection("showcase", ({ data }) => {
+  const end = parseLocalDate(data.dateEnd ?? data.date);
   return end >= today; 
 });
 
@@ -28,7 +28,7 @@ const orderedShows = upcomingShows
   .sort((a, b) => parseLocalDate(a.data.date) - parseLocalDate(b.data.date) )
   .slice(0, 3);
 
-while (orderedShows.length > 0  && orderedShows < 3) {
+while (orderedShows.length > 0  && orderedShows.length < 3) {
   orderedShows.push(orderedShows[orderedShows.length -1])
 }
 
