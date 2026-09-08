@@ -23,7 +23,7 @@ function formatDisplayDate(dateStr, timeStr) {
         month: "short",
         day: "numeric",
     }); 
-    return timeStr ? '${formatted} at ${timeStr}' : formatted;
+    return timeStr ? `${formatted} at ${timeStr}` : formatted;
 }
 
 const today = new Date();

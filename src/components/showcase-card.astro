@@ -12,6 +12,24 @@ const { site, id } = Astro.props;
 const image = await resolveImage(site);
 const widths = [450, 800];
 const sizes = "(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw";
+
+
+function parseLocalDate(str) {
+  const [y, m, d] = str.split("-").map(Number); // String dates from showcase will be automatically UTC midnight so need to convert to avoid the issue of displaying one day ahead
+  return new Date(y, m - 1, d); // Months are 0-indexed
+}
+
+
+function formatDisplayDate(dateStr, timeStr) {
+    const dateObj = parseLocalDate(dateStr);
+    const formatted = dateObj.toLocaleDateString("en-US", {
+        weekday: "short",
+        month: "short",
+        day: "numeric",
+    }); 
+    return timeStr ? `${formatted} at ${timeStr}` : formatted;
+}
+
 ---
 
 <script is:inline src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.0/flowbite.min.js"></script>
@@ -34,7 +52,7 @@ const sizes = "(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw";
           {site.data.title}
         </h3>
         <p class="px-4 py-2">{site.data.speaker}</p>
-        <p class="px-4">{site.data.date}</p>
+        <p class="px-4">{formatDisplayDate(site.data.date,  site.data.time)}</p>
       </div>
     </figcaption>
   </figure>
