@@ -7,9 +7,9 @@ const showcase = defineCollection({
     image: z.string(),
     speaker: z.string(),
     date:z.string(),
+    dateEnd:z.string(),
     url:z.string().url(),
     blurb:z.string(),
-    featured: z.number().min(1).optional(),
   }),
 });
 
