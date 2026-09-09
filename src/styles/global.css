@@ -12,13 +12,13 @@ a,
 }
 
 @font-face {
-  font-family: "Futura";
-  src: url("/fonts/Futura.ttf");
-  font-weight: normal;
+  font-family: "Jost";
+  src: url("/fonts/jost.woff2") format("woff2");
+  font-weight: 100 900;
   font-style: normal;
   font-display: swap;
 }
 
 html * {
-  font-family: Futura;
+  font-family: Jost;
 }
