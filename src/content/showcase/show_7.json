@@ -1,9 +1,9 @@
 {
-  "title": "TBD",
+  "title": "No Show",
   "image": "/src/content/showcase/_images/planetarium_logo.png",
-  "speaker":"TBD",
+  "speaker":"",
   "date": "2026-11-11",
   "time": "7:00 PM",
   "url":"https://planetarium.astro.ucla.edu",
-  "blurb":"TBD."
+  "blurb": ""
 }
