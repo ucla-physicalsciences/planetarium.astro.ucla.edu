@@ -1,9 +1,9 @@
 {
-  "title": "TBD",
-  "image": "/src/content/showcase/_images/planetarium_logo.png",
-  "speaker":"TBD",
+  "title": "Exoplanet Climates",
+  "image": "/src/content/showcase/_images/wasp_atm.jpg",
+  "speaker":"Nate Magari and Frankie Kuzler",
   "date":"2026-09-30",
   "time": "8:00 PM",
   "url":"https://pretix.eu/UCLAplanetarium/Sep30Show/",
-  "blurb":"TBD"
+  "blurb":"We will explore the connection between climate science on Earth and the study of exoplanet climates, which may lead to the discovery of habitable worlds beyond our solar system."
 }
