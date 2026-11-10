@@ -1,9 +1,9 @@
 {
   "title": "Gravitational Waves",
-  "image": "/src/content/showcase/_images/planetarium_logo.png",
+  "image": "/src/content/showcase/_images/grav_waves.jpg",
   "speaker":"Abigail Lynch",
   "date":"2026-11-25",
   "time": "7:00 PM",
   "url":"https://pretix.eu/UCLAplanetarium/Nov25Show/",
-  "blurb":""
+  "blurb":"When two very dense objects merge, like black holes or neutron stars, spiral into one another and merge, they send ripples through the fabric of space. These ripples are so faint that only sensitive instruments, like LIGO or future facilities like LISA, can detect them. Come learn more about gravitational waves!"
 }
