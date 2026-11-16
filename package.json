@@ -15,6 +15,7 @@
   "devDependencies": {
     "@astrojs/image": "^0.17.3",
     "@astrojs/tailwind": "^4.0.0",
+    "@fortawesome/fontawesome-free": "^7.3.1",
     "@mdi/svg": "^7.4.47",
     "@types/micromodal": "^0.3.3",
     "astro": "^2.10.12",
